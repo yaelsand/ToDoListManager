@@ -26,8 +26,6 @@ public class MainActivity extends Activity {
         items = new ArrayList<String>();
         itemsAdapter = new AlternateColorAdapter<String>(this, android.R.layout.simple_list_item_1, items);
         lvItems.setAdapter(itemsAdapter);
-        items.add("First Item");
-        items.add("Second Item");
         // Setup remove listener method call
         setupListViewListener();
     }
